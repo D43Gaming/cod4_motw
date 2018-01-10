@@ -3,7 +3,7 @@ var app = express();
 var mysql = require('mysql');
 var async = require('async');
 var shuffle = require('shuffle-array');
-var config = require('./config.js');
+var config = require('./config.json');
 //var fs = require("fs");
 
 var maps = [
